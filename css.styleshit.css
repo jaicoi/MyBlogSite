@@ -1,0 +1,107 @@
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#login-container h2 {
+    margin-top: 0;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#error-message {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#blog-content {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+section h3 {
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0;
+}
+
+section p {
+    color: #666;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Hover effect for section headers */
+section h3:hover {
+    background-color: #ddd;
+}
+
+/* Background image for the About Me content */
+#about-me-content {
+    background-image: url('your-about-me-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background image for the My Hobbies content */
+#my-hobbies-content {
+    background-image: url('your-hobbies-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Background image for the Contact content */
+#contact-content {
+    background-image: url('your-contact-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
